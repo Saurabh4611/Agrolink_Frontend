@@ -36,13 +36,6 @@ function App() {
     <Route path="/edit-crop/:cropId" element={<EditCrop/>}/>
     <Route path="/buy-crop/:cropId" element={<BuyCrop />} />
     <Route path="/Aiupload" element = {<Aiupload/>}/>
-    
-    
-    
-
-
-
-
     </Routes>
     </>
 
