@@ -140,7 +140,7 @@ const handleBulkBuy = async (cropId, crop) => {
                   <img
                      src={
                         crop.imageUrl 
-                         ? `https://agrolink-backend-k4eo.onrender.com/api/files/uploads/${crop.imageUrl}`
+                         ? `https://agrolink-backend-k4eo.onrender.com/uploads/${crop.imageUrl}`
                         : "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop"
                      }
                      alt={crop.cropName}

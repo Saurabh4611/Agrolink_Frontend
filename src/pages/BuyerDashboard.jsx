@@ -217,7 +217,7 @@ const removeCart = async (item) => {
           <img
             src={
               item.crop?.imageUrl
-                ? `http://localhost:8080/uploads/${item.crop.imageUrl}`
+                ? `https://agrolink-backend-k4eo.onrender.com/uploads/${item.crop.imageUrl}`
                 : "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop"
             }
             alt={item.crop?.cropName}
